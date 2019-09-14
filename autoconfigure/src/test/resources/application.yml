@@ -1,0 +1,12 @@
+spring:
+  wen:
+    redis:
+      host: 123
+      ssl:
+        enable: 2
+  pylon:
+    server:
+      name: test.a
+    clients:
+      - {name: test.bb}
+      - {name: test.cc}

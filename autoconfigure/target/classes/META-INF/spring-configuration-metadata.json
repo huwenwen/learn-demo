@@ -1,0 +1,69 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.wen.autoconfigure.pylon.PylonProperties",
+      "name": "spring.pylon",
+      "type": "com.wen.autoconfigure.pylon.PylonProperties"
+    },
+    {
+      "sourceType": "com.wen.autoconfigure.pylon.ServerConfig",
+      "name": "spring.pylon.server",
+      "type": "com.wen.autoconfigure.pylon.ServerConfig"
+    },
+    {
+      "sourceType": "com.wen.autoconfigure.RedisProperties",
+      "name": "spring.wen.redis",
+      "type": "com.wen.autoconfigure.RedisProperties"
+    },
+    {
+      "sourceType": "com.wen.autoconfigure.RedisProperties",
+      "name": "spring.wen.redis.ssl",
+      "sourceMethod": "getSsl()",
+      "type": "com.wen.autoconfigure.RedisProperties$SSSLLL"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.wen.autoconfigure.pylon.PylonProperties",
+      "name": "spring.pylon.clients",
+      "type": "java.util.List<com.wen.autoconfigure.pylon.ClientConfig>"
+    },
+    {
+      "sourceType": "com.wen.autoconfigure.pylon.PylonProperties",
+      "name": "spring.pylon.server",
+      "type": "com.wen.autoconfigure.pylon.ServerConfig"
+    },
+    {
+      "sourceType": "com.wen.autoconfigure.pylon.ServerConfig",
+      "name": "spring.pylon.server.cluster",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.wen.autoconfigure.pylon.ServerConfig",
+      "name": "spring.pylon.server.interfaces",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.wen.autoconfigure.pylon.ServerConfig",
+      "name": "spring.pylon.server.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.wen.autoconfigure.RedisProperties",
+      "name": "spring.wen.redis.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.wen.autoconfigure.RedisProperties",
+      "defaultValue": 0,
+      "name": "spring.wen.redis.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.wen.autoconfigure.RedisProperties$SSSLLL",
+      "name": "spring.wen.redis.ssl.enable",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

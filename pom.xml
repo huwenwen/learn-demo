@@ -21,6 +21,7 @@
         <module>dependencies</module>
         <module>leetcode</module>
         <module>copy-compare</module>
+        <module>demo</module>
     </modules>
     <name>learn-parent</name>
 
@@ -47,7 +48,6 @@
     <properties>
         <java.version>1.8</java.version>
         <springBootVersion>2.0.0.RELEASE</springBootVersion>
-        <springVersion>5.0.4.RELEASE</springVersion>
         <lombok.version>1.18.2</lombok.version>
         <slf4jVersion>1.7.25</slf4jVersion>
         <jedis.version>2.8.0</jedis.version>
@@ -100,16 +100,6 @@
                 <artifactId>spring-boot-starter-test</artifactId>
                 <version>${springBootVersion}</version>
                 <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-core</artifactId>
-                <version>${springVersion}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-context-support</artifactId>
-                <version>${springVersion}</version>
             </dependency>
 
             <dependency>
